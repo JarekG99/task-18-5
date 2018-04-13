@@ -7,7 +7,7 @@ var env =process.env.NODE_ENV || 'development';
 const path = require('path');
 
 const plugins = [new HtmlWebpackPlugin({
-   template: 'client/index.html',
+   template: 'index.html',
    filename: 'index.html',
    inject: 'body'
 })];
