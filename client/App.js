@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';
+// import { hot } from 'react-hot-loader';
 import io from 'socket.io-client';
 import styles from './App.css';
 
@@ -79,4 +79,4 @@ class App extends Component {
  }
 };
 
-export default hot(module)(App);
+export default (App);
